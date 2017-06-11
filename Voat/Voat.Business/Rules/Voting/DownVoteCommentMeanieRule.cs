@@ -1,5 +1,8 @@
 ﻿using Voat.RulesEngine;
 
+
+//oise can we fucking delete this? any dependencies?
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery("Approved if user has more upvotes than downvotes on comments", "approved = (user.Comment.UpVotes > user.Comment.DownVotes)")]
