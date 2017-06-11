@@ -77,7 +77,7 @@ SRS Shills took over Voat just like they took over Reddit, and pushed Atif out. 
 - NOW WITH 100% LESS CENSORSHIP AND BEHAVIORAL MANIPULATION, COMPARED TO ORIGINAL VOAT!  - feature request.  some dev plase halp.
 
 ### What does the future hold?
-Voat2 aims to make a media aggregator platform with new ideas and unique features that set Voat apart from similar platforms.
+Voat2 aims to make a media aggregator platform with new ideas and unique features that set Voat2 apart from similar platforms.
 
 - chat
 - remove censorship and behavioral manipulation
