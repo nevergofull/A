@@ -1,6 +1,6 @@
 ﻿using Voat.RulesEngine;
 
-//oise can we fucking delete this? any dependencies? 
+//oise can we fucking delete this? any dependencies?  oyuyyyy
 
 namespace Voat.Rules.Voting
 {
