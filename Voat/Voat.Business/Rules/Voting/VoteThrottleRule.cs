@@ -2,6 +2,9 @@
 using Voat.Configuration;
 using Voat.RulesEngine;
 
+//WHAT IN THE FUCK IS THIS FUCKING SHIT.  PURGE WITH FIRE!!
+
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery("Approves action if quota not exceeded for votes in a 24 sliding window.", "approved = (user.TotalVotesInPast24Hours < max(quota, user.CCP / 2))")]
