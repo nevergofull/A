@@ -5,7 +5,7 @@ using Voat.RulesEngine;
 
 namespace Voat.Rules.Voting
 {
-    [RuleDiscovery("Approved if comment is not older than 7 days", "approved = (comment.Age <= 7 days)")]
+    [RuleDiscovery("Approved if comment is not older than 700 days", "approved = (comment.Age <= 700 days)")]
     public class DownVoteSubmissionAgeRule : VoatRule
     {
         public DownVoteSubmissionAgeRule() : base("Downvote Submission Age", "2.6", RuleScope.DownVoteSubmission)
@@ -17,12 +17,12 @@ namespace Voat.Rules.Voting
             var q = new QuerySubmission(context.SubmissionID.Value);
             var submission = q.Execute();
 
-            // do not execute downvoting if comment is older than 7 days
+            // do not execute downvoting if comment is older than 700 days
             var commentPostingDate = submission.CreationDate;
             TimeSpan timeElapsed = Repository.CurrentDate - commentPostingDate;
-            if (timeElapsed.TotalDays > 7)
+            if (timeElapsed.TotalDays > 700)
             {
-                return CreateOutcome(RuleResult.Denied, "Submission downvotes not registered after 7 days");
+                return CreateOutcome(RuleResult.Denied, "Submission downvotes not registered after 700 days");
             }
             return base.EvaluateRule(context);
         }
