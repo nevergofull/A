@@ -2,6 +2,8 @@
 using Voat.Domain.Models;
 using Voat.RulesEngine;
 
+//same as the last one.  we need this?  where's the repo that shows the info?
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery("Approved if vote hasn't been registered from same device.", "approved = (hasVoted(Submission, AddressHash) == false)")]
