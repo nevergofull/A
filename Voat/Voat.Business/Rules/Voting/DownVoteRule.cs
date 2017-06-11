@@ -1,5 +1,7 @@
 ﻿using Voat.RulesEngine;
 
+//oise can we fucking delete this?  any dependencies?
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery("Approved if user has 100 CCP or higher.", "approved = (user.CCP >= 100)")]
