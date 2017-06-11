@@ -2,6 +2,8 @@
 using Voat.Domain.Models;
 using Voat.RulesEngine;
 
+//to prevent repeat voting?  on one hand this just makes people want to create alts... also, where does this connect to something filled with the info on which devices are which and all that?
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery("Approved if vote hasn't been registered from same device.", "approved = (hasVoted(Comment, AddressHash) == false)")]
