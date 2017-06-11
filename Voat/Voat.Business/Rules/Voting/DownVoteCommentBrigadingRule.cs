@@ -3,6 +3,8 @@ using Voat.Data;
 using Voat.Domain.Query;
 using Voat.RulesEngine;
 
+//oise can we fucking delete this? any dependencies?
+
 namespace Voat.Rules.Voting
 {
     [RuleDiscovery(false, "Approved if user isn't brigading another users comments", "approved = (!isUserBrigading())")]
