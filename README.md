@@ -7,12 +7,12 @@
 This was the code behind http://www.voat.co.  and will now become the code behind voat2 (secret name!)
 
 ### Description
-Voat2 is a media aggregator and community platform developed in C# ASP.NET MVC 5.  
+Voat2 is a media aggregator and community platform developed in C# ASP.NET MVC 5. Voat2's purpose is to be a place for all to speak freely, uncensored, un self-censored, unrestricted, to never limit, punish, restrict, nor censor speech; to uphold the human right to freely self express.  
 
 ### Dependencies and attributions
-Voat2 uses SQL server and .NET framework 4.5.
+Voat2 uses SQL server and .NET framework 4.5. - - for now.
 
-The following 3rd party libraries/extensions are used:
+The following 3rd party libraries/extensions are used, for now:
 
 - Markdowndeep (http://www.toptensoftware.com/markdowndeep)
 - Entity Framework (https://entityframework.codeplex.com)
