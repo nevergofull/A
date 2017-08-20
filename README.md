@@ -85,4 +85,4 @@ Voat2 aims to make a media aggregator platform with new ideas and unique feature
 - backed by holochain, not the internet
 
 ### Contributing
-There is a whole lot of work to be done, code contributions are more than welcome. By submitting a pull request, you are agreeing for your contribution to be distributed under GPL V3 license (the same license voat uses for the rest of voat project).
+There is a whole lot of work to be done, code contributions are more than welcome. By submitting a pull request, you are agreeing for your contribution to be distributed under GPL V3 license (the same license voat uses for the rest of voat2 project).
